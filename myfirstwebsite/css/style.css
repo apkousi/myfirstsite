@@ -1,0 +1,114 @@
+body,html{
+  width: 100%;
+  height: 100%;
+}
+.head{
+      background-color: navy;
+      width: 100%;
+      height: 20%;
+}
+.hcontent1{
+text-align: left;
+font-size: 40px;
+font-family: cambria;
+color:white;
+padding-left: 50px;
+padding-top: 20px;
+}
+.hcontent2{
+text-align: left;
+font-size: 20px;
+font-family: cambria;
+font-style: italic;
+color:white;
+padding-left: 120px;
+}
+.logo {
+  border-radius: 50%;
+  width: 420px;
+  height: 100px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+  padding-right: 20px;
+  }
+
+.navig{
+  padding-left: 30px;
+  background-color: DarkTurquoise ;
+}
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+
+li {
+      float: left;
+}
+li a, .dropbtn {
+      display: block;
+      color: black;
+      font-size: 20px;
+      font-family: cambria;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+      background-color: green;
+      color:white;
+      text-decoration: none;
+  }
+
+.mySlides{
+    width: 100%;
+    height:105%;
+    display:inline-block;
+
+  }
+.content{
+  width: 100%;
+  height:45%;
+  font-family: cambria;
+  font-size: 20px;
+  opacity:0.6;
+}
+
+.about{
+  text-align:center;
+  padding-top:20px;
+  padding-bottom: 10px;
+  font-family: cambria;
+  font-size: 30px;
+  color:black;
+}
+
+.tour {
+  position: relative;
+  padding-right:10%;
+  padding-left: 30px;
+  margin-top:18px;
+  margin-left:30px;
+  text-align:center;
+  font-family: algerian;
+  color:white;
+  font-size: 20px;
+}
+
+.button{
+  background-color: green;
+  font-family: cambria;
+  font-size: 20px;
+  color: white;
+}
+
+.footer{
+  background-color: navy;
+  padding: 20px;
+  text-align: right;
+}
